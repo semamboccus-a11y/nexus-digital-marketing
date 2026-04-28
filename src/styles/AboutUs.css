@@ -1,0 +1,251 @@
+.about-page {
+  width: 100%;
+}
+
+/* About Header */
+.about-header {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, var(--light-blue) 0%, var(--white) 100%);
+  border-radius: 16px;
+  margin-bottom: 4rem;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  color: var(--dark-navy);
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.about-header p {
+  font-size: 1.1rem;
+  color: var(--primary-blue);
+  max-width: 900px;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+/* About Content */
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto 4rem;
+}
+
+.about-section {
+  margin-bottom: 3rem;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, rgba(0, 102, 204, 0.05), rgba(255, 102, 0, 0.05));
+  border-radius: 12px;
+  border-left: 4px solid var(--primary-blue);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: var(--dark-navy);
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.about-section p {
+  color: var(--text-color);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.about-section p:last-child {
+  margin-bottom: 0;
+}
+
+/* Mission Vision Grid */
+.mission-vision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.mvv-card {
+  background: var(--white);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid var(--primary-blue);
+  transition: all 0.3s ease;
+}
+
+.mvv-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 102, 204, 0.15);
+}
+
+.mvv-card.vision-icon {
+  border-top-color: var(--accent-orange);
+}
+
+.mvv-icon {
+  font-size: 2.5rem;
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+}
+
+.mvv-card:nth-child(2) .mvv-icon {
+  color: var(--accent-orange);
+}
+
+.mvv-card h3 {
+  font-size: 1.5rem;
+  color: var(--dark-navy);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.mvv-card p {
+  color: var(--text-color);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.mvv-subtitle {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+  background: linear-gradient(135deg, var(--light-blue) 0%, var(--white) 50%, var(--light-blue) 100%);
+  padding: 4rem 2rem;
+  border-radius: 16px;
+  margin-bottom: 4rem;
+}
+
+.why-choose-us h2 {
+  font-size: 2.5rem;
+  color: var(--dark-navy);
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 800;
+}
+
+/* Reasons Grid */
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.reason-item {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 2px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.reason-item:hover {
+  border-color: var(--primary-blue);
+  box-shadow: 0 12px 32px rgba(0, 102, 204, 0.15);
+  transform: translateY(-8px);
+}
+
+.reason-icon {
+  font-size: 2.5rem;
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  background: var(--light-blue);
+  border-radius: 50%;
+}
+
+.reason-item:nth-child(even) .reason-icon {
+  color: var(--accent-orange);
+  background: rgba(255, 102, 0, 0.1);
+}
+
+.reason-item h3 {
+  font-size: 1.2rem;
+  color: var(--dark-navy);
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.reason-item p {
+  color: var(--text-color);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* About CTA */
+.about-cta {
+  background: linear-gradient(135deg, var(--dark-navy) 0%, var(--primary-blue) 100%);
+  color: var(--white);
+  padding: 3rem 2rem;
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+}
+
+.about-cta h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.about-cta p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-header h1 {
+    font-size: 2rem;
+  }
+
+  .about-header p {
+    font-size: 1rem;
+  }
+
+  .about-section {
+    padding: 1.5rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .mission-vision-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .why-choose-us h2 {
+    font-size: 1.8rem;
+  }
+
+  .reasons-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .about-cta h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-content {
+    padding: 0 1rem;
+  }
+}
