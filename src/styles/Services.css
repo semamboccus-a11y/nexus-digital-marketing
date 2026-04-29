@@ -385,7 +385,9 @@
 
   .services-grid {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 0 0.5rem;
   }
 
   .nexus-360 {
