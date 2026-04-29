@@ -233,7 +233,7 @@ body {
     left: 0;
     right: 0;
     flex-direction: column;
-    background-color: var(--dark-navy);
+    background-color: #E6F2FF;
     padding: 1rem;
     gap: 0;
   }
@@ -251,6 +251,7 @@ body {
 
   .menu-toggle {
     display: block;
+    color: var(--dark-navy);
   }
 
   .nav-social {

@@ -216,7 +216,8 @@
   }
 
   .about-header p {
-    font-size: 1rem;
+    font-size: 0.85rem;
+    white-space: normal;
   }
 
   .about-section {

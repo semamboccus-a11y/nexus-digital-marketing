@@ -23,7 +23,7 @@
   color: var(--primary-blue);
   max-width: 900px;
   margin: 0 auto;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 /* Services Grid */
@@ -391,6 +391,11 @@
 
   .nexus-360-header {
     flex-direction: column;
+  }
+
+  .services-header p {
+    font-size: 0.95rem;
+    white-space: normal;
   }
 
   .pricing-section h2 {

@@ -286,15 +286,17 @@
   }
 
   .hero-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    white-space: normal;
   }
 
   .hero-subtitle {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
   }
 
   .hero-description {
-    padding: 1.5rem;
+    padding: 1rem;
+    font-size: 0.9rem;
   }
 
   .about-content h2 {
