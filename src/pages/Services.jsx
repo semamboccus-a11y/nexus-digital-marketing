@@ -177,7 +177,7 @@ export default function Services({ onNavigate }) {
       <motion.section 
         className="services-grid services-grid-mobile"
         variants={containerVariants}
-        initial="hidden"
+        initial="visible"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
       >
@@ -186,6 +186,7 @@ export default function Services({ onNavigate }) {
             key={service.id}
             className="service-card"
             variants={itemVariants}
+            initial="visible"
             whileHover={{ y: -10 }}
             style={{ '--card-color': service.color }}
           >
