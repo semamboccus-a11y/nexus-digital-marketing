@@ -152,7 +152,7 @@ export default function Services({ onNavigate }) {
     <div className="services-page">
       {/* Services Header */}
       <motion.section 
-        className="services-header"
+        className="services-header services-header-mobile"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -175,7 +175,7 @@ export default function Services({ onNavigate }) {
 
       {/* Services Grid */}
       <motion.section 
-        className="services-grid"
+        className="services-grid services-grid-mobile"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
