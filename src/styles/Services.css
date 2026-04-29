@@ -372,9 +372,10 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .services-header {
+    order: 2;
     padding: 1rem 1rem;
     margin-bottom: 0.5rem;
-    min-height: auto;
+    margin-top: 2rem;
   }
 
   .services-header h1 {
@@ -388,6 +389,7 @@
   }
 
   .services-grid {
+    order: 1;
     grid-template-columns: 1fr;
     gap: 1rem;
     margin-bottom: 2rem;
