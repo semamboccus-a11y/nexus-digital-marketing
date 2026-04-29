@@ -369,8 +369,14 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .services-header {
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+  }
+
   .services-header h1 {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 
   .services-header p {
