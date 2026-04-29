@@ -372,10 +372,8 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .services-header-mobile {
-    order: 2;
     padding: 1rem 1rem;
     margin-bottom: 0.5rem;
-    margin-top: 2rem;
   }
 
   .services-header h1 {
@@ -390,7 +388,6 @@
   }
 
   .services-grid-mobile {
-    order: 1;
     grid-template-columns: 1fr;
     gap: 1rem;
     margin-bottom: 2rem;
